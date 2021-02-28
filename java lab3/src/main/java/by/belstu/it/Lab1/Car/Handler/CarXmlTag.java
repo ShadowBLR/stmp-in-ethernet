@@ -1,6 +1,10 @@
 package by.belstu.it.Lab1.Car.Handler;
 
 public enum CarXmlTag {
+    TRUCK("Truck"),
+    CARGO_PASSENGER("CargoPassenger"),
+    SIMPLE_CAR("SimpleCar"),
+    CAR("car"),
     MODEL("model"),
     COLOR("color"),
     MAX_SPEED("maxSpeed"),
@@ -13,7 +17,7 @@ public enum CarXmlTag {
 
 private String value;
     CarXmlTag(String value) {
-        this.value = value;
+        this.value = value.strip();
     }
     public String getValue(){
         return value;

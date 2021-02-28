@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e73e3ef4-39ac-47e2-9a28-a5ec38705207" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarXmlTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarXmlTag.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\IdeaProjects\java lab3\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oduHFv3yvHBwINaGpJjmxdz6k1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.belstu.it.Lab1.Main" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belstu.it.Lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="by.belstu.it.Lab1.Main.Main" />
+      <module name="untitled104" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e73e3ef4-39ac-47e2-9a28-a5ec38705207" name="Default Changelist" comment="" />
+      <created>1613628698733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613628698733</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added validation xml files and parser">
+      <created>1614454237663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614454237663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added CarHandler class">
+      <created>1614459466055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614459466055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added validation xml files and parser" />
+    <MESSAGE value="Added CarHandler class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CarHandler class" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="86" key="#Main" timestamp="1613665136451">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="495" y="86" key="#Main/0.0.1536.834@0.0.1536.834" timestamp="1613665136451" />
+    <state x="361" y="76" key="#Project_Structure" timestamp="1614458810055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1614458810055" />
+    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1614424069519">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1614424069519" />
+    <state x="496" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1613664735230">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="496" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1613664735230" />
+    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1614459464977">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1614459464977" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1614509524054">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1614509524054" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1614509524055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1614459129498">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1614459129498" />
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1614511203460">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1614511203460" />
+    <state x="511" y="37" key="refactoring.ChangeSignatureDialog" timestamp="1614457213015">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="511" y="37" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1614457213015" />
+  </component>
+</project>

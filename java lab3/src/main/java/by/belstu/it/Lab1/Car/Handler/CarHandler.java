@@ -1,7 +1,9 @@
 package by.belstu.it.Lab1.Car.Handler;
 
 import by.belstu.it.Lab1.Car.Car;
+import by.belstu.it.Lab1.Car.CargoPassenger;
 import by.belstu.it.Lab1.Car.SimpleCar;
+import by.belstu.it.Lab1.Car.Truck;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -15,29 +17,36 @@ public class CarHandler extends DefaultHandler {
     private CarXmlTag currentXmlTag;
     private EnumSet<CarXmlTag> withText;
     private static final String ELEMENT_SIMPLE_CAR="SimpleCar";
+    private static final String ELEMENT_CARGO_PASSENGER="CargoPassenger";
+    private static final String ELEMENT_TRUCK="Truck";
     public CarHandler(){
         cars= new HashSet<>();
         withText=EnumSet.range(CarXmlTag.MODEL,CarXmlTag.MAX_SPEED);
     }
     public void startElement(String uri, String localName, String qName, Attributes attrs){
-        if(ELEMENT_SIMPLE_CAR.equals(qName)){
+        switch (qName){
+            case ELEMENT_SIMPLE_CAR:
             current=new SimpleCar();
+            case ELEMENT_CARGO_PASSENGER:
+                current=new CargoPassenger();
+            case ELEMENT_TRUCK:
+                current=new Truck();
             current.setColor(attrs.getValue(0));
-            if(attrs.getLength()==5){
+            if(attrs.getLength()==5) {
                 current.setModel(attrs.getValue(1));
                 current.setMaxSpeed(Integer.parseInt(attrs.getValue(2)));
                 current.setCountOfPassengers(Integer.parseInt(attrs.getValue(3)));
                 current.setPrice(Float.parseFloat(attrs.getValue(4)));
             }
-        }else{
-            CarXmlTag temp = CarXmlTag.valueOf(qName.toUpperCase());
+                default:
+            CarXmlTag temp = CarXmlTag.valueOf(qName.toUpperCase().strip());
             if(withText.contains(temp)){
                 currentXmlTag=temp;
             }
         }
     }
     public void endElement(String uri, String localName, String qName){
-        if(ELEMENT_SIMPLE_CAR.equals(qName)){
+        if(ELEMENT_SIMPLE_CAR.equals(qName.strip())){
             cars.add(current);
         }
     }

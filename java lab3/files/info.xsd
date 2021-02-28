@@ -1,0 +1,48 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Car">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SimpleCar">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="color"/>
+                                <xs:attribute type="xs:string" name="model"/>
+                                <xs:attribute type="xs:int" name="maxSpeed"/>
+                                <xs:attribute type="xs:int" name="countOfPassengers"/>
+                                <xs:attribute type="xs:float" name="price"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Truck">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="color"/>
+                                <xs:attribute type="xs:string" name="model"/>
+                                <xs:attribute type="xs:int" name="maxSpeed"/>
+                                <xs:attribute type="xs:int" name="countOfPassengers"/>
+                                <xs:attribute type="xs:float" name="price"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="CargoPassenger">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="color"/>
+                                <xs:attribute type="xs:string" name="model"/>
+                                <xs:attribute type="xs:int" name="maxSpeed"/>
+                                <xs:attribute type="xs:int" name="countOfPassengers"/>
+                                <xs:attribute type="xs:float" name="price"/>
+                                <xs:attribute type="xs:boolean" name="isCargo"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
