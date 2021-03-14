@@ -1,7 +1,13 @@
 package by.belstu.it.Lab1;
 
+import by.belstu.it.Lab1.Car.CargoPassenger;
 import by.belstu.it.Lab1.Car.Handler.ConsoleCarHandler;
 import by.belstu.it.Lab1.Car.Parser.CarsSaxBuilder;
+import by.belstu.it.Lab1.Car.SimpleCar;
+import by.belstu.it.Lab1.Car.Truck;
+import by.belstu.it.Lab1.Car.Writter.GsonWrapper;
+import by.belstu.it.Lab1.CarManager.CarManager;
+import by.belstu.it.Lab1.CarStation.TaxiStation;
 import by.belstu.it.Lab1.Validation.CarErrorHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +32,33 @@ public class Main {
     private static Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
+        log.info("Hello world");
+        SimpleCar simpleCar = new SimpleCar();
+        simpleCar.setColor("RED");
+        simpleCar.setCountOfPassengers(14);
+        simpleCar.setMaxSpeed(100);
+        simpleCar.setPrice(214);
+
+        Truck truck = new Truck();
+        truck.setColor("GREEN");
+        truck.setMaxSpeed(5324);
+        truck.setPrice(5234);
+
+        CargoPassenger cargoPassenger=new CargoPassenger();
+        cargoPassenger.setCargo(true);
+        cargoPassenger.setColor("YELLOW");
+        cargoPassenger.setModel("MAZ");
+        cargoPassenger.setPrice(953);
+
+        TaxiStation taxiStation = new TaxiStation();
+        taxiStation.addCarToTaxiStation(simpleCar);
+        taxiStation.addCarToTaxiStation(truck);
+        taxiStation.addCarToTaxiStation(cargoPassenger);
+
+        CarManager carManager = new CarManager();
+        System.out.println(carManager.getPriceOfTaxiStation(taxiStation));
+        System.out.println(carManager.findCarBySpeed(taxiStation,10,1500));
+        //4 лаба
         //Проверка валидации
 	    String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
 	    String fileName="files/info.xml";
@@ -58,9 +91,20 @@ public class Main {
         } catch (SAXException | IOException | ParserConfigurationException e) {
             e.printStackTrace();
         }
+
         //generate object from xmlDocument
         CarsSaxBuilder saxBuilder = new CarsSaxBuilder();
         saxBuilder.buildSetCars("files/info.xml");
-        System.out.println(saxBuilder.getCars());
+        for (var car: saxBuilder.getCars()
+             ) {
+            System.out.println(car);
+        };
+        //SERIALIZATION AND DESERIALIZATION WITH USED GSON
+        GsonWrapper wrapper = new GsonWrapper();
+        String cargoString = wrapper.serialize(cargoPassenger);
+        System.out.println(cargoString);
+
+        CargoPassenger cargo=(CargoPassenger) wrapper.deserialize(cargoString,CargoPassenger.class);
+        System.out.println(cargo);
     }
 }

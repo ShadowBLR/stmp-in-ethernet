@@ -38,7 +38,7 @@ public class CarsSaxBuilder {
         } catch (SAXException | IOException e) {
             e.printStackTrace();
         }
-        cars = handler.getCars();
+        cars=handler.getCars();
     }
 
 }

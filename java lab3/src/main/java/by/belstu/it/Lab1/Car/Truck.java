@@ -19,4 +19,13 @@ private boolean isFull;
     public void setFull(boolean full) {
         isFull = full;
     }
+    @Override
+    public String toString() {
+        return "Truck{" +
+                "Model = "+getModel()+
+                "Price = "+getPrice()+
+                "FuelConsumption = "+getFuelConsumption()+
+                "MaxSpeed = "+getMaxSpeed()+
+                '}';
+    }
 }

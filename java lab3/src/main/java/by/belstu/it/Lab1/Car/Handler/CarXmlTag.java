@@ -2,8 +2,8 @@ package by.belstu.it.Lab1.Car.Handler;
 
 public enum CarXmlTag {
     TRUCK("Truck"),
-    CARGO_PASSENGER("CargoPassenger"),
-    SIMPLE_CAR("SimpleCar"),
+    CARGOPASSENGER("CargoPassenger"),
+    SIMPLECAR("SimpleCar"),
     CAR("car"),
     MODEL("model"),
     COLOR("color"),

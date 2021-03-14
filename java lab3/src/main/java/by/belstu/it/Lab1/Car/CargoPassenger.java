@@ -7,6 +7,17 @@ public class CargoPassenger extends Car{
         return isCargo;
     }
 
+    @Override
+    public String toString() {
+        return "CargoPassenger{" +
+                "Model = "+getModel()+
+                " Price = "+getPrice()+
+                " FuelConsumption = "+getFuelConsumption()+
+                " MaxSpeed = "+getMaxSpeed()+
+                " isCargo = " + isCargo +
+                '}';
+    }
+
     public void setCargo(boolean cargo) {
         isCargo = cargo;
     }

@@ -21,14 +21,26 @@ public class CarHandler extends DefaultHandler {
     private static final String ELEMENT_TRUCK="Truck";
     public CarHandler(){
         cars= new HashSet<>();
-        withText=EnumSet.range(CarXmlTag.MODEL,CarXmlTag.MAX_SPEED);
+        withText=EnumSet.range(CarXmlTag.TRUCK,CarXmlTag.IS_CARGO);
     }
     public void startElement(String uri, String localName, String qName, Attributes attrs){
         switch (qName){
             case ELEMENT_SIMPLE_CAR:
             current=new SimpleCar();
+                if(attrs.getLength()==5) {
+                    current.setModel(attrs.getValue(1));
+                    current.setMaxSpeed(Integer.parseInt(attrs.getValue(2)));
+                    current.setCountOfPassengers(Integer.parseInt(attrs.getValue(3)));
+                    current.setPrice(Float.parseFloat(attrs.getValue(4)));
+                }break;
             case ELEMENT_CARGO_PASSENGER:
                 current=new CargoPassenger();
+                if(attrs.getLength()==5) {
+                    current.setModel(attrs.getValue(1));
+                    current.setMaxSpeed(Integer.parseInt(attrs.getValue(2)));
+                    current.setCountOfPassengers(Integer.parseInt(attrs.getValue(3)));
+                    current.setPrice(Float.parseFloat(attrs.getValue(4)));
+                }break;
             case ELEMENT_TRUCK:
                 current=new Truck();
             current.setColor(attrs.getValue(0));
@@ -37,7 +49,7 @@ public class CarHandler extends DefaultHandler {
                 current.setMaxSpeed(Integer.parseInt(attrs.getValue(2)));
                 current.setCountOfPassengers(Integer.parseInt(attrs.getValue(3)));
                 current.setPrice(Float.parseFloat(attrs.getValue(4)));
-            }
+            }break;
                 default:
             CarXmlTag temp = CarXmlTag.valueOf(qName.toUpperCase().strip());
             if(withText.contains(temp)){
@@ -46,7 +58,9 @@ public class CarHandler extends DefaultHandler {
         }
     }
     public void endElement(String uri, String localName, String qName){
-        if(ELEMENT_SIMPLE_CAR.equals(qName.strip())){
+        if(ELEMENT_SIMPLE_CAR.equals(qName.strip())
+        ||ELEMENT_CARGO_PASSENGER.equals(qName.strip())
+        ||ELEMENT_TRUCK.equals(qName.strip())){
             cars.add(current);
         }
     }

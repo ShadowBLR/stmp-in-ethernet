@@ -2,13 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73e3ef4-39ac-47e2-9a28-a5ec38705207" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Hello/Hello.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaApp/JavaApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Writter/GsonWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java lab5/java lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jonline-les03/jonline-les03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jonline-les04/jonline-les04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jonline-les07/jonline-les07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 3 java core/lab 3 java core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_one/lab_one.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled10/untitled10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled11/untitled11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/untitled2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/untitled4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/peoject2/peoject2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/untitled5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled6/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/untitled7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled9/untitled9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/CargoPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/CargoPassenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarXmlTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Handler/CarXmlTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Parser/CarsSaxBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Parser/CarsSaxBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/SimpleCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/SimpleCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/CarManager/CarManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/CarManager/CarManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/CarStation/TaxiStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/CarStation/TaxiStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Interface/Countable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Interface/Countable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Interface/Sortedable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Interface/Sortedable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/CargoPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/CargoPassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Handler/CarHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Handler/CarHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Handler/CarHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Handler/CarHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Handler/CarXmlTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Handler/CarXmlTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/SimpleCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/SimpleCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Car/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarStation/TaxiStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarStation/TaxiStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Interface/Countable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Interface/Countable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Interface/Sortedable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Interface/Sortedable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java lab3" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,9 +99,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\java lab3\log" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,12 +176,44 @@
       <option name="project" value="LOCAL" />
       <updated>1614459466055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some files">
+      <created>1614511320891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614511320891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/User/IdeaProjects/java lab3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -130,76 +223,94 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added validation xml files and parser" />
     <MESSAGE value="Added CarHandler class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CarHandler class" />
+    <MESSAGE value="added some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="495" y="86" key="#Main" timestamp="1613665136451">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="495" y="86" key="#Main/0.0.1536.834@0.0.1536.834" timestamp="1613665136451" />
-    <state x="361" y="76" key="#Project_Structure" timestamp="1614458810055">
+    <state x="361" y="76" key="#Project_Structure" timestamp="1614583244064">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1614458810055" />
-    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1614424069519">
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1614583244064" />
+    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1614584413780">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1614424069519" />
+    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1614584413780" />
     <state x="496" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1613664735230">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="496" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1613664735230" />
-    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1614459464977">
+    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1614511318207">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1614459464977" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1614509524055">
+    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1614511318207" />
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1615723179327">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1614509524055">
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615723179327" />
+    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1615723179326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1614509524054">
+    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615723179326" />
+    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1615723179326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1614509524054" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1614509524055">
+    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615723179326" />
+    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1615723179326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1614509524055">
+    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615723179326" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1615645874848">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1614509524055">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615645874848" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1615645874848">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1614509524055">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1615645874848" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1615645874848">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1614509524055">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1615645874848" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1615645874848">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1614509524055" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1615645874848" />
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog" timestamp="1615717066299">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1615717066299" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1614459129498">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1614459129498" />
-    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1614511203460">
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1615716592107">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1614511203460" />
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1615716592107" />
+    <state x="463" y="149" width="847" height="536" key="find.popup" timestamp="1615641987344">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="463" y="149" width="847" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1615641987344" />
     <state x="511" y="37" key="refactoring.ChangeSignatureDialog" timestamp="1614457213015">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="511" y="37" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1614457213015" />
+    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1615721891960">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1615721891960" />
   </component>
 </project>

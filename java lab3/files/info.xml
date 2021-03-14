@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceLocation="info.xsd">
+<Car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
     <SimpleCar
-        color = "RED" model="Reno" maxSpeed = "400" countOfPassengers = "4" price="324.52">
+        color = "RED" model="Mazda" maxSpeed = "200" countOfPassengers = "2" price="174.52">
     </SimpleCar>
     <Truck
-        color = "RED" model="Reno" maxSpeed = "400" countOfPassengers = "4" price="324.52">
-
+        color = "RED" model="BMW" maxSpeed = "1230" countOfPassengers = "3" price="144.52">
     </Truck>
-
     <CargoPassenger
         color = "RED" model="Reno" maxSpeed = "400" countOfPassengers = "4" price="324.52" >
     </CargoPassenger>

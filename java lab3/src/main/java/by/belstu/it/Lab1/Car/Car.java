@@ -76,5 +76,4 @@ public abstract class Car {
         this.fuelConsumption = fuelConsumption;
     }
 
-
 }
