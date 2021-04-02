@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73e3ef4-39ac-47e2-9a28-a5ec38705207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/CallCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/CarTask/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/CarTask/Street.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/CarManager/CarManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/CarStation/TaxiStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/CargoPassenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/Interface/Countable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/Interface/Sortedable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/SimpleCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/belstu/it/Lab1/CarManager/CarManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java lab5/src/by/belstu/it/Lab1/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/belstu/it/Lab1/Car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java 7 lab/src/main/java/by/belstu/it/Lab1/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

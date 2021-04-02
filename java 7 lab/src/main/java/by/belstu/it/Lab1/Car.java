@@ -1,4 +1,4 @@
-package by.belstu.it.Lab1.Car;
+package by.belstu.it.Lab1;
 
 public abstract class Car {
     public float getPrice() {

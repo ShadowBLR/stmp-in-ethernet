@@ -4,6 +4,9 @@ import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 public class JDBCManager {
     Connection Connection;
+    Statement Statement;
+    String user="";
+    String password="";
     String queryFromCreateCities="Create table cities(" +
             "name varchar(30) not null Primary key," +
             "yearOfBirth int not null," +
@@ -34,7 +37,7 @@ public class JDBCManager {
     public void setStatement(java.sql.Statement statement) {
         Statement = statement;
     }
-    public boolean Execute(String str) {
+    public boolean execute(String str) {
         try {
             return Statement.execute(str);
         } catch (SQLException e) {
@@ -42,9 +45,7 @@ public class JDBCManager {
         }
         return false;
     }
-    Statement Statement;
-    String user="";
-    String password="";
+
     public JDBCManager(String url, String user, String password){
         try {
             Connection= DriverManager.getConnection(url,user,password);
@@ -59,16 +60,13 @@ public class JDBCManager {
             e.printStackTrace();
         }
     }
-    public Statement CreateStatement(){
+    public Statement createStatement(){
         try {
             return Connection.createStatement();
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
-    }
-    public boolean CreateTable(String query){
-        return Execute("Create table "+query);
     }
     public Connection getConnection() {
         return Connection;

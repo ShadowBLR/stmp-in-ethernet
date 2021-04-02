@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Created-By: <Ivan Kishko>
+Main-Class:by.belstu.it.JavaLab1.Main
